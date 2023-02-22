@@ -45,13 +45,13 @@
     function selectType(req) {
         type.value = req
         step.value++
-        text = 'motivo del contatto: ' + req
+        text = 'settore: Telefonia, motivo del contatto: ' + req
         url = ref('https://wa.me/3487934801?text=' + encodeURIComponent(text))
     }   
 
     function setText() {
         if (message.value) {
-            text = 'motivo del contatto: ' + type.value + ', messaggio: ' + message.value
+            text = 'settore: Telefonia, motivo del contatto: ' + type.value + ', messaggio: ' + message.value
         } 
         url = ref('https://wa.me/3487934801?text=' + encodeURIComponent(text))
     }
