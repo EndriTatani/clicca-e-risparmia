@@ -46,14 +46,14 @@
         type.value = req
         step.value++
         text = 'settore: Telefonia, motivo del contatto: ' + req
-        url = ref('https://wa.me/3487934801?text=' + encodeURIComponent(text))
+        url = ref('https://wa.me/3460219023?text=' + encodeURIComponent(text))
     }   
 
     function setText() {
         if (message.value) {
             text = 'settore: Telefonia, motivo del contatto: ' + type.value + ', messaggio: ' + message.value
         } 
-        url = ref('https://wa.me/3487934801?text=' + encodeURIComponent(text))
+        url = ref('https://wa.me/3460219023?text=' + encodeURIComponent(text))
     }
 </script>
 
